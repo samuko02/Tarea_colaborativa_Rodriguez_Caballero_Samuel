@@ -1,25 +1,25 @@
 Algoritmo Operaciones
 	Repetir
 		Escribir "Elige una de las siguientes asignaturas para plantear un problema:"
-		Escribir "1. Matemáticas"
-		Escribir "2. Física"
-		Escribir "3. Química"
+		Escribir "1. Matemå«¢ticas"
+		Escribir "2. Fç–„sica"
+		Escribir "3. Quç’¥mica"
 		Escribir "4. Salir"
 		Leer operacion
 		Segun operacion Hacer
 			1:
-				Escribir "Calcula el siguiente límite: lim(x->Infinito)(x*e^-x)"
-				Escribir "Solución: =lim(x->Infinito) (x/e^x) = (L Hopital) lim(x->Infinto) (1/e^x) = 1/Infinito = 0"
+				Escribir "Calcula el siguiente lç’¥mite: lim(x->Infinito)(x*e^-x)"
+				Escribir "Solucié®n: =lim(x->Infinito) (x/e^x) = (L Hopital) lim(x->Infinto) (1/e^x) = 1/Infinito = 0"
 			2:
-				Escribir "Calcula el flujo magnético a través de una espira de 0.5m^2 en un campo de 0.02T perpendiculares."
-				Escribir "Solución: Flujo = B*S*cos(a) = 0.02*0.5*cos(90) = 0.01 Wb"
+				Escribir "Calcula el flujo magnå½‹tico a travå»¥s de una espiral de 0.5m^2 en un campo de 0.02T perpendiculares."
+				Escribir "Solucié®n: Flujo = B*S*cos(a) = 0.02*0.5*cos(90) = 0.01 Wb"
 			3:
 				Escribir "Formula el siguiente compuesto: Permanganato de potasio."
-				Escribir "Solución: KMnO4"
+				Escribir "Solucié®n: KMnO4"
 			4:
-				Escribir "¡Gracias por utilizar este código!"
+				Escribir "ï¼šGracias por utilizar este céšdigo!"
 			De Otro Modo:
 				Escribir "No se ha reconocido el comando"
 		Fin Segun
-	Hasta Que operacion==0
+	Hasta Que operacion==4
 FinAlgoritmo
